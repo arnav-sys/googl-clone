@@ -1,0 +1,16 @@
+import React from "react";
+
+function Header_option({ Icon, title, selected }) {
+  return (
+    <div
+      className={`flex ${
+        selected && "text-blue-500"
+      } items-center space-x-1 border-b-4 border-transparent hover:text-blue-500 hover:border-blue-500 pb-3 cursor: pointer`}
+    >
+      <Icon className="h-4" />
+      <p className="hidden sm:inline-flex">{title}</p>
+    </div>
+  );
+}
+
+export default Header_option;
