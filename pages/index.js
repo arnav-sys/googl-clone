@@ -37,7 +37,10 @@ export default function Home() {
           <p className="link">Gmail</p>
           <p className="link">Images</p>
           <ViewGridIcon className="h-10 w-10 p-2 cursor-pointer rounded-full hover:bg-gray-100" />
-          <Avatar url="https://yt3.ggpht.com/yti/ANoDKi4L-GMjIz9kTTLEtwwJv5AR-5FMtq9Qi7-kxx4eGg=s88-c-k-c0x00ffffff-no-rj-mo" />
+          <Avatar
+            className="ml-auto h-10 w-10"
+            url="https://yt3.ggpht.com/yti/ANoDKi4L-GMjIz9kTTLEtwwJv5AR-5FMtq9Qi7-kxx4eGg=s88-c-k-c0x00ffffff-no-rj-mo"
+          />
         </div>
       </header>
 
